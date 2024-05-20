@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Projeto 02</title>
+</head>
+
+<body>
+
+
+    <main>
+
+<button class="btn__modo" id="modo">Modo Claro</button>
+
+        <section class="container__geral">
+
+            <section class="container__input">
+
+                <p class="input__titulo"></p>
+
+                <div class="inputs">
+
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" autocomplete="off">
+
+                    <label for="idade">Idade</label>
+                    <input type="number" name="idade" id="idade" autocomplete="off">
+
+                    <label for="nivel">Nível</label>
+                    <input type="number" name="nivel" id="nivel" autocomplete="off">
+
+                    <label for="vitorias">Vitórias</label>
+                    <input type="number" name="vitorias" id="vitorias" autocomplete="off">
+
+                    <label for="classe">Classe</label>
+                    <input type="text" name="classe" id="classe" autocomplete="off">
+
+                </div>
+
+                <div class="input__btn">
+                    <button class="input__btn_estilo" id="enviar">Enviar</button>
+                    <button class="input__btn_estilo" id="limpar">Limpar</button>
+                </div>
+
+            </section>
+
+            <section class="container_card">
+
+                <p class="card__nome">Nome: <span id="nomeNovo"></span></p>
+
+                <div class="card__img">
+                    <img id="card__personagem" src="assets/empty.png" alt="" width="250px">
+                    <span>_______________ <span class="info">Info</span></span>
+                </div>
+
+                <div class="card__conteudo">
+
+                    <p>Idade: <span id="novaIdade"></span></p>
+                    <p>Classe: <span id="novaClasse"></span></p>
+                    <p>Nivel: <span id="novoNivel"></span></p>
+                    <p>Classificação: <span id="novaClassificacao"></span></p>
+
+                </div>
+
+                <span>_______________ <span class="info">Bio</span></span>
+
+                <p class="card__texto" id="card__texto"></p>
+
+            </section>
+
+        </section>
+
+    </main>
+
+   <script src="scripts/btns.js" type="module"></script>
+   <script src="scripts/modo.js"></script>
+   
+   
+
+</body>
+
+</html>

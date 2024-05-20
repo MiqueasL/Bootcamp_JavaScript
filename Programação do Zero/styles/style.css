@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #18181B;    
+}
+
+.btn__modo {
+    margin-top: 50px;
+    margin-left: 100px; 
+    margin-bottom: 10px;   
+    width: 160px;
+    height: 30px;
+    background-color: #16A34A;
+    color: #F8FAFC;
+    font-size: 10px;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.container__geral {
+    display: flex;
+    gap: 20px;
+}
+
+.container__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    height: 500px;
+    width: 300px;
+    margin-left: 100px    
+}
+
+.input__titulo {
+    color: #f8fafc;
+    padding: 20px 0 20px 0;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 16px;
+    font-family: "Press Start 2P", system-ui;
+    color: #F8FAFC;
+}
+
+input {
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #363636;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: #F8FAFC;
+}
+
+.input__btn {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 25px;
+    justify-content: center;
+}
+
+.input__btn_estilo {
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    font-family: "Press Start 2P", system-ui;
+    color: #F8FAFC;
+    background-color: #16A34A;
+}
+
+.input__btn_estilo:active {
+    color: #18181B;
+}
+
+input:focus{
+    background-color: #363636;
+}
+
+/******************************/
+
+.container_card {
+    background-color: #262626;
+    height: 500px;
+    width: 300px;    
+}
+
+.card__nome {
+    font-family: "Press Start 2P", system-ui;
+    color: #F8FAFC;
+    padding: 20px;
+    border-bottom: 1px solid #16A34A;
+}
+
+span {
+    font-size: 10px;
+    font-family: "Press Start 2P", system-ui;
+    color: #16A34A;
+}
+
+.info {
+    color: #F8FAFC;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 8px;
+}
+
+.card__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #F8FAFC;
+    padding: 12px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+}
+
+.card__texto {
+    display: flex;
+    padding: 10px;
+    color: #F8FAFC;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+}
