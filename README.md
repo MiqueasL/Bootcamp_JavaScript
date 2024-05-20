@@ -23,4 +23,5 @@ Tecnologias usadas:
 
 Layout da página.
 
-![modos](https://github.com/MiqueasL/Bootcamp_JavaScript/assets/114825728/9c9903b8-22d7-46b3-ae41-c8f598a8b91e)
+![modo](https://github.com/MiqueasL/Bootcamp_JavaScript/assets/114825728/4d602ae2-75a0-4731-9218-b8db21dbccad)
+
