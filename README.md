@@ -3,6 +3,7 @@ Potência Tech iFood - Programação do Zero
 
 #
 
-Modo Claro
+Modo Claro e Escuro
 
-![modoClaro](https://github.com/MiqueasL/Bootcamp_JavaScript/assets/114825728/50030bb6-4626-4fa2-bfc4-09064dd286b3)
+
+![modos](https://github.com/MiqueasL/Bootcamp_JavaScript/assets/114825728/9c9903b8-22d7-46b3-ae41-c8f598a8b91e)
